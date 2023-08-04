@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane">
+    <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+        <grid_canvas display_value="PA Lead Overview - New Tab">1029fda847b32110ff8e8a88536d43f7</grid_canvas>
+        <height>10</height>
+        <portal_widget display_value="Created 2023-06-29 13:07:38">6149f9a847b32110ff8e8a88536d430c</portal_widget>
+        <posx>0</posx>
+        <posy>0</posy>
+        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-29 20:07:39</sys_created_on>
+        <sys_id>e949f9a847b32110ff8e8a88536d430e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1029fda847b32110ff8e8a88536d43f7</sys_name>
+        <sys_package display_value="ABiS" source="x_427498_abis">269ad56c47332110ff8e8a88536d4359</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ABiS">269ad56c47332110ff8e8a88536d4359</sys_scope>
+        <sys_update_name>sys_grid_canvas_pane_e949f9a847b32110ff8e8a88536d430e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-29 20:07:39</sys_updated_on>
+        <width>12</width>
+    </sys_grid_canvas_pane>
+</record_update>

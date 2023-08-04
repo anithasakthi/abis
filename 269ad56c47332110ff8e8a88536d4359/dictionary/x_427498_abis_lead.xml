@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="9d9c95ec47332110ff8e8a88536d43df" extends="task" label="Lead" max_length="40" name="x_427498_abis_lead" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Address" max_length="40" name="u_address" type="string"/>
+        <element attributes="encode_utf8=false" label="City" max_length="32" name="u_city" reference="x_427498_abis_location_india" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Company" max_length="40" name="u_company" type="string"/>
+        <element label="Contacted Today" max_length="40" name="u_contacted_today" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Email Address" max_length="40" name="u_email_address" type="string"/>
+        <element label="Name" mandatory="true" max_length="40" name="u_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Phone Number" mandatory="true" max_length="40" name="u_phone_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Position" max_length="40" name="u_position" type="string"/>
+        <element label="Public" max_length="40" name="u_public" type="boolean"/>
+        <element choice="1" label="Source" mandatory="true" max_length="40" name="u_source" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Telemarketing" sequence="0" value="Telemarketing"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" dependent="u_city" dependent_on_field="u_city" label="State" max_length="32" name="u_state" reference="x_427498_abis_location_india" type="reference" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" label="State" max_length="40" name="u_state1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Zip Code" max_length="40" name="u_zipcode" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>10</order>
+        <role display_value="x_427498_abis.admin" name="x_427498_abis.admin">aa9ad56c47332110ff8e8a88536d4370</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-29 17:53:38</sys_created_on>
+        <sys_id>a69ad56c47332110ff8e8a88536d4371</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>aa9ad56c47332110ff8e8a88536d4370</sys_name>
+        <sys_package display_value="ABiS" source="x_427498_abis">269ad56c47332110ff8e8a88536d4359</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ABiS">269ad56c47332110ff8e8a88536d4359</sys_scope>
+        <sys_update_name>sys_embedded_help_role_a69ad56c47332110ff8e8a88536d4371</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-29 17:53:38</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

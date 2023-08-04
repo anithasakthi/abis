@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="57e942f047b36110ff8e8a88536d43f8" label="Location_India" max_length="40" name="x_427498_abis_location_india" type="collection">
+        <element display="true" label="City" max_length="40" name="city" type="string"/>
+        <element label="Country" max_length="40" name="country" type="string"/>
+        <element label="State" max_length="40" name="state" type="string"/>
+        <index name="index">
+            <element name="city"/>
+        </index>
+    </element>
+</database>

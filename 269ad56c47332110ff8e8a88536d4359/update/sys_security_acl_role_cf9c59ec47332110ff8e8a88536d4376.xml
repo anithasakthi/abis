@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-29 18:02:24</sys_created_on>
+        <sys_id>cf9c59ec47332110ff8e8a88536d4376</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_427498_abis_lead.x_427498_abis.admin</sys_name>
+        <sys_package display_value="ABiS" source="x_427498_abis">269ad56c47332110ff8e8a88536d4359</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ABiS">269ad56c47332110ff8e8a88536d4359</sys_scope>
+        <sys_security_acl display_value="x_427498_abis_lead">369c59ec47332110ff8e8a88536d4373</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_cf9c59ec47332110ff8e8a88536d4376</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-29 18:02:24</sys_updated_on>
+        <sys_user_role display_value="x_427498_abis.admin" name="x_427498_abis.admin">aa9ad56c47332110ff8e8a88536d4370</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

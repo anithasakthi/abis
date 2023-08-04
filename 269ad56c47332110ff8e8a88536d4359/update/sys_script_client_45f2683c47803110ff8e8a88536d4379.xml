@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>To set the state field value</description>
+        <field>u_city</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>OnchangeCity</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	if (isLoading || newValue === '') {
+		return;
+	}
+
+	var ga = new GlideAjax("StateFieldAutoPopulate");
+	ga.addParam("sysparm_name", "getFavorites");
+	ga.addParam("sysparm_caller", g_form.getValue('u_city'));
+	ga.getXML(ajaxResponse);
+
+	function ajaxResponse(serverResponse) {
+		var favorites = serverResponse.responseXML.getElementsByTagName("favorite");
+
+		for (var i = 0; i < favorites.length; i++) {
+			var name = favorites[i].getAttribute("name");
+			var value = favorites[i].getAttribute("value");
+
+			//alert ("value" + value);
+			if (name == 'state') {
+				g_form.setValue('u_state1', value);
+			}
+
+			//if (name == 'country') {
+			//	g_form.setValue('u_country1', value);}
+
+			
+		}
+	}
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-12 18:50:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>45f2683c47803110ff8e8a88536d4379</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>OnchangeCity</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ABiS" source="x_427498_abis">269ad56c47332110ff8e8a88536d4359</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ABiS">269ad56c47332110ff8e8a88536d4359</sys_scope>
+        <sys_update_name>sys_script_client_45f2683c47803110ff8e8a88536d4379</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-12 18:53:20</sys_updated_on>
+        <table>x_427498_abis_lead</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

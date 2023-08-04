@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="New Section" section_id="9d27fd2847b32110ff8e8a88536d431c" sys_domain="global" table="x_427498_abis_lead" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_public</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-06-29 19:58:23</sys_created_on>
+            <sys_id>7527316847b32110ff8e8a88536d4318</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_427498_abis_lead" sys_domain="global" view="Default view">9d27fd2847b32110ff8e8a88536d431c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-06-29 19:58:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-06-29 19:58:23</sys_created_on>
+            <sys_id>f527316847b32110ff8e8a88536d4318</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_427498_abis_lead" sys_domain="global" view="Default view">9d27fd2847b32110ff8e8a88536d431c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-06-29 19:58:23</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_contacted_today</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-06-29 19:58:23</sys_created_on>
+            <sys_id>7927316847b32110ff8e8a88536d4318</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_427498_abis_lead" sys_domain="global" view="Default view">9d27fd2847b32110ff8e8a88536d431c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-06-29 19:58:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>New Section</caption>
+            <header>false</header>
+            <name>x_427498_abis_lead</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-06-29 19:58:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9d27fd2847b32110ff8e8a88536d431c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_427498_abis_lead</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="ABiS" source="x_427498_abis">269ad56c47332110ff8e8a88536d4359</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ABiS">269ad56c47332110ff8e8a88536d4359</sys_scope>
+            <sys_update_name>sys_ui_section_9d27fd2847b32110ff8e8a88536d431c</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-06-29 19:58:21</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ABiS">269ad56c47332110ff8e8a88536d4359</application>
+        <file_path/>
+        <instance_id>8d782feedba2d1141955c597059619c2</instance_id>
+        <instance_name>dev140973</instance_name>
+        <name>sys_ui_section_9d27fd2847b32110ff8e8a88536d431c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="New Section" section_id="9d27fd2847b32110ff8e8a88536d431c" sys_domain="global" table="x_427498_abis_lead" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>u_public</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-06-29 19:58:23</sys_created_on><sys_id>7527316847b32110ff8e8a88536d4318</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_427498_abis_lead" sys_domain="global" view="Default view">9d27fd2847b32110ff8e8a88536d431c</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-06-29 19:58:23</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-06-29 19:58:23</sys_created_on><sys_id>f527316847b32110ff8e8a88536d4318</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_427498_abis_lead" sys_domain="global" view="Default view">9d27fd2847b32110ff8e8a88536d431c</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-06-29 19:58:23</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_contacted_today</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-06-29 19:58:23</sys_created_on><sys_id>7927316847b32110ff8e8a88536d4318</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_427498_abis_lead" sys_domain="global" view="Default view">9d27fd2847b32110ff8e8a88536d431c</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-06-29 19:58:23</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>New Section</caption><header>false</header><name>x_427498_abis_lead</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-06-29 19:58:21</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>9d27fd2847b32110ff8e8a88536d431c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_427498_abis_lead</sys_name><sys_overrides/><sys_package display_value="ABiS" source="x_427498_abis">269ad56c47332110ff8e8a88536d4359</sys_package><sys_policy/><sys_scope display_value="ABiS">269ad56c47332110ff8e8a88536d4359</sys_scope><sys_update_name>sys_ui_section_9d27fd2847b32110ff8e8a88536d431c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-06-29 19:58:21</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>1616630631</payload_hash>
+        <record_name>Lead</record_name>
+        <reverted_from/>
+        <source>a69ad56c47332110ff8e8a88536d435b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-29 19:58:23</sys_created_on>
+        <sys_id>f527316847b32110ff8e8a88536d431a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18908bc45340000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-29 19:58:23</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>7d273168d7b321102677ea28221c3819</update_guid>
+        <update_guid_history>7d273168d7b321102677ea28221c3819:1616630631</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-29 20:34:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>793202fa9428462982719f5330db03b9</sys_id>
+        <sys_metadata>9d27fd2847b32110ff8e8a88536d431c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Section</sys_name>
+        <sys_package display_value="ABiS" source="x_427498_abis">269ad56c47332110ff8e8a88536d4359</sys_package>
+        <sys_parent display_value="Lead">9d9c95ec47332110ff8e8a88536d43df</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ABiS">269ad56c47332110ff8e8a88536d4359</sys_scope>
+        <sys_scope_delete display_value="">26b92a24f61e4b2c8602f0025b499651</sys_scope_delete>
+        <sys_update_name>sys_ui_section_9d27fd2847b32110ff8e8a88536d431c</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_9d27fd2847b32110ff8e8a88536d431c">f527316847b32110ff8e8a88536d431a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-29 20:34:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
