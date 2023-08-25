@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <applicability_mode>query</applicability_mode>
+        <autopilot_topic>false</autopilot_topic>
+        <category/>
+        <channels/>
+        <connect_queue/>
+        <description>Abis applicaiton help</description>
+        <dialog_acts_enabled>true</dialog_acts_enabled>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>true</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.47",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "13619ab1ce994ff5a13d561705226a37": {
+          "id": "13619ab1ce994ff5a13d561705226a37",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Welcome"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          }
+        },
+        "9990ba92663c43079f9b4ec5017eafa5": {
+          "id": "9990ba92663c43079f9b4ec5017eafa5",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "c3c76b34c08a4ac791914e9e7e691c89": {
+          "id": "c3c76b34c08a4ac791914e9e7e691c89",
+          "stepType": "ReusableTopic",
+          "name": "Geolocation",
+          "fields": [],
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "useTemplateTopic": false,
+          "reusableTopicChoice": "Geolocation",
+          "reusableTopicId": "19b7784453022010b6e8ddeeff7b12da",
+          "inputs": {
+            "permissionprompt": {
+              "value": "Would you like to share your location?",
+              "mode": "simple",
+              "type": "String"
+            }
+          },
+          "outputs": [
+            {
+              "id": "be51d91f7b1447a99c41f4ebea4cb5d1",
+              "value": "latitude",
+              "mapping": "latitude1"
+            },
+            {
+              "id": "93607a08772d417eaa72fc0aa20ba69b",
+              "value": "longitude",
+              "mapping": "longitude1"
+            },
+            {
+              "id": "6350fb7c6d394ecb8ac817898ec239fe",
+              "value": "errormessage",
+              "mapping": "errormessage1"
+            },
+            {
+              "id": "98949b27d6f941cebd9dc212ae6292a9",
+              "value": "errortype",
+              "mapping": "errortype1"
+            },
+            {
+              "id": "ea79106922d841ce880d87b8fc1c6f66",
+              "value": "status",
+              "mapping": "status1"
+            }
+          ],
+          "variableIds": [
+            "be51d91f7b1447a99c41f4ebea4cb5d1",
+            "93607a08772d417eaa72fc0aa20ba69b",
+            "6350fb7c6d394ecb8ac817898ec239fe",
+            "98949b27d6f941cebd9dc212ae6292a9",
+            "ea79106922d841ce880d87b8fc1c6f66"
+          ],
+          "dynamicTopicBlockName": {
+            "value": "",
+            "mode": "simple"
+          },
+          "inputDynamicModal": {},
+          "outputDynamicModal": {}
+        }
+      },
+      "edges": [
+        {
+          "id": "79ab382829d34b8da34fdb21b239eb7e",
+          "edgeType": "Edge",
+          "source": "c3c76b34c08a4ac791914e9e7e691c89",
+          "target": "9990ba92663c43079f9b4ec5017eafa5",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "c59a6f2ecbd044cfae6cd7e50dcb9ce1",
+          "edgeType": "Edge",
+          "source": "13619ab1ce994ff5a13d561705226a37",
+          "target": "c3c76b34c08a4ac791914e9e7e691c89",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    },
+    "be51d91f7b1447a99c41f4ebea4cb5d1": {
+      "id": "be51d91f7b1447a99c41f4ebea4cb5d1",
+      "name": "latitude1",
+      "label": "Latitude1",
+      "defaultValue": "latitude",
+      "varType": "string",
+      "category": "vaInputs",
+      "metadata": {
+        "libraryMappingType": "output"
+      },
+      "nodeId": "c3c76b34c08a4ac791914e9e7e691c89",
+      "isHidden": false
+    },
+    "93607a08772d417eaa72fc0aa20ba69b": {
+      "id": "93607a08772d417eaa72fc0aa20ba69b",
+      "name": "longitude1",
+      "label": "Longitude1",
+      "defaultValue": "longitude",
+      "varType": "string",
+      "category": "vaInputs",
+      "metadata": {
+        "libraryMappingType": "output"
+      },
+      "nodeId": "c3c76b34c08a4ac791914e9e7e691c89",
+      "isHidden": false
+    },
+    "6350fb7c6d394ecb8ac817898ec239fe": {
+      "id": "6350fb7c6d394ecb8ac817898ec239fe",
+      "name": "errormessage1",
+      "label": "Errormessage1",
+      "defaultValue": "errormessage",
+      "varType": "string",
+      "category": "vaInputs",
+      "metadata": {
+        "libraryMappingType": "output"
+      },
+      "nodeId": "c3c76b34c08a4ac791914e9e7e691c89",
+      "isHidden": false
+    },
+    "98949b27d6f941cebd9dc212ae6292a9": {
+      "id": "98949b27d6f941cebd9dc212ae6292a9",
+      "name": "errortype1",
+      "label": "Errortype1",
+      "defaultValue": "errortype",
+      "varType": "string",
+      "category": "vaInputs",
+      "metadata": {
+        "libraryMappingType": "output"
+      },
+      "nodeId": "c3c76b34c08a4ac791914e9e7e691c89",
+      "isHidden": false
+    },
+    "ea79106922d841ce880d87b8fc1c6f66": {
+      "id": "ea79106922d841ce880d87b8fc1c6f66",
+      "name": "status1",
+      "label": "Status1",
+      "defaultValue": "status",
+      "varType": "string",
+      "category": "vaInputs",
+      "metadata": {
+        "libraryMappingType": "output"
+      },
+      "nodeId": "c3c76b34c08a4ac791914e9e7e691c89",
+      "isHidden": false
+    }
+  }
+}</graph>
+        <key_phrases>Abis</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <modify_confirmation_enabled>true</modify_confirmation_enabled>
+        <name>Abis</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles/>
+        <root_topic_id/>
+        <secure_custom_input_control>false</secure_custom_input_control>
+        <source_topic_id/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-11 16:50:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>2b78225e97a031102b9e76771153af86</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Abis</sys_name>
+        <sys_package display_value="ABiS" source="x_427498_abis">269ad56c47332110ff8e8a88536d4359</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ABiS">269ad56c47332110ff8e8a88536d4359</sys_scope>
+        <sys_update_name>sys_cb_topic_2b78225e97a031102b9e76771153af86</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-11 17:04:52</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+        <variables/>
+    </sys_cb_topic>
+    <sys_translated_text action="delete_multiple" query="documentkey=2b78225e97a031102b9e76771153af86"/>
+    <sys_variable_value action="delete_multiple" query="document_key=2b78225e97a031102b9e76771153af86"/>
+</record_update>

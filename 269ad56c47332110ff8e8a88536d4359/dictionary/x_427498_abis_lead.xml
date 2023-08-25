@@ -9,9 +9,15 @@
         <element attributes="edge_encryption_enabled=true" label="Phone Number" mandatory="true" max_length="40" name="u_phone_number" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Position" max_length="40" name="u_position" type="string"/>
         <element label="Public" max_length="40" name="u_public" type="boolean"/>
-        <element choice="1" label="Source" mandatory="true" max_length="40" name="u_source" type="choice">
+        <element choice="1" default="Telemarketing" label="Source" mandatory="true" max_length="40" name="u_source" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Telemarketing" sequence="0" value="Telemarketing"/>
+                <element inactive_on_update="false" label="Direct Vist" sequence="0" value="direct_vist"/>
+                <element inactive_on_update="false" label="Email Marketing" sequence="1" value="email_marketing"/>
+                <element inactive_on_update="false" label="Existing Client" sequence="2" value="existing_client"/>
+                <element inactive_on_update="false" label="Facebook" sequence="3" value="facebook"/>
+                <element inactive_on_update="false" label="Offline Marketing" sequence="4" value="offline_marketing"/>
+                <element inactive_on_update="false" label="Telemarketing" sequence="5" value="Telemarketing"/>
+                <element inactive_on_update="false" label="Website Leads" sequence="6" value="website_leads"/>
             </choice>
         </element>
         <element attributes="encode_utf8=false" dependent="u_city" dependent_on_field="u_city" label="State" max_length="32" name="u_state" reference="x_427498_abis_location_india" type="reference" use_dependent_field="true"/>
