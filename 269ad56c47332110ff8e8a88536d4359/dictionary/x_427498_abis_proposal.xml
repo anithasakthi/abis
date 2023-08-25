@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="a003e33297b431102b9e76771153af54" extends="task" label="Proposal" max_length="40" name="x_427498_abis_proposal" type="collection"/>
+</database>
