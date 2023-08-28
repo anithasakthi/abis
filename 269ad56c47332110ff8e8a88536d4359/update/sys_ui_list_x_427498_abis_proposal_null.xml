@@ -3,92 +3,92 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>number</element>
-            <list_id display_value="x_427498_abis_proposal" element="NULL" name="x_427498_abis_proposal" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">140523f297b431102b9e76771153af0b</list_id>
+            <list_id display_value="x_427498_abis_proposal" element="NULL" name="x_427498_abis_proposal" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b06c673e97b431102b9e76771153af60</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-08-25 20:47:27</sys_created_on>
-            <sys_id>100523f297b431102b9e76771153af0c</sys_id>
+            <sys_created_on>2023-08-25 21:19:42</sys_created_on>
+            <sys_id>bc6c673e97b431102b9e76771153af60</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-08-25 20:47:27</sys_updated_on>
+            <sys_updated_on>2023-08-25 21:19:42</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>state</element>
-            <list_id display_value="x_427498_abis_proposal" element="NULL" name="x_427498_abis_proposal" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">140523f297b431102b9e76771153af0b</list_id>
+            <list_id display_value="x_427498_abis_proposal" element="NULL" name="x_427498_abis_proposal" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b06c673e97b431102b9e76771153af60</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-08-25 20:47:27</sys_created_on>
-            <sys_id>140523f297b431102b9e76771153af0c</sys_id>
+            <sys_created_on>2023-08-25 21:19:42</sys_created_on>
+            <sys_id>3c6c2b3e97b431102b9e76771153afc7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-08-25 20:47:27</sys_updated_on>
+            <sys_updated_on>2023-08-25 21:19:42</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>u_company</element>
-            <list_id display_value="x_427498_abis_proposal" element="NULL" name="x_427498_abis_proposal" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">140523f297b431102b9e76771153af0b</list_id>
+            <element>company_new</element>
+            <list_id display_value="x_427498_abis_proposal" element="NULL" name="x_427498_abis_proposal" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b06c673e97b431102b9e76771153af60</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-08-25 20:47:27</sys_created_on>
-            <sys_id>180523f297b431102b9e76771153af0c</sys_id>
+            <sys_created_on>2023-08-25 21:19:42</sys_created_on>
+            <sys_id>306c2b3e97b431102b9e76771153afc8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-08-25 20:47:27</sys_updated_on>
+            <sys_updated_on>2023-08-25 21:19:42</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>u_service</element>
-            <list_id display_value="x_427498_abis_proposal" element="NULL" name="x_427498_abis_proposal" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">140523f297b431102b9e76771153af0b</list_id>
+            <element>service_new</element>
+            <list_id display_value="x_427498_abis_proposal" element="NULL" name="x_427498_abis_proposal" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b06c673e97b431102b9e76771153af60</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-08-25 20:47:27</sys_created_on>
-            <sys_id>1c0523f297b431102b9e76771153af0c</sys_id>
+            <sys_created_on>2023-08-25 21:19:42</sys_created_on>
+            <sys_id>346c2b3e97b431102b9e76771153afc8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-08-25 20:47:27</sys_updated_on>
+            <sys_updated_on>2023-08-25 21:19:42</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>assigned_to</element>
-            <list_id display_value="x_427498_abis_proposal" element="NULL" name="x_427498_abis_proposal" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">140523f297b431102b9e76771153af0b</list_id>
+            <list_id display_value="x_427498_abis_proposal" element="NULL" name="x_427498_abis_proposal" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b06c673e97b431102b9e76771153af60</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-08-25 20:47:27</sys_created_on>
-            <sys_id>100523f297b431102b9e76771153af0d</sys_id>
+            <sys_created_on>2023-08-25 21:19:42</sys_created_on>
+            <sys_id>386c2b3e97b431102b9e76771153afc8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-08-25 20:47:27</sys_updated_on>
+            <sys_updated_on>2023-08-25 21:19:42</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>short_description</element>
-            <list_id display_value="x_427498_abis_proposal" element="NULL" name="x_427498_abis_proposal" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">140523f297b431102b9e76771153af0b</list_id>
+            <list_id display_value="x_427498_abis_proposal" element="NULL" name="x_427498_abis_proposal" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b06c673e97b431102b9e76771153af60</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-08-25 20:47:27</sys_created_on>
-            <sys_id>140523f297b431102b9e76771153af0d</sys_id>
+            <sys_created_on>2023-08-25 21:19:42</sys_created_on>
+            <sys_id>3c6c2b3e97b431102b9e76771153afc8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-08-25 20:47:27</sys_updated_on>
+            <sys_updated_on>2023-08-25 21:19:42</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -102,10 +102,10 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-08-25 20:47:27</sys_created_on>
+            <sys_created_on>2023-08-25 21:19:42</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>140523f297b431102b9e76771153af0b</sys_id>
+            <sys_id>b06c673e97b431102b9e76771153af60</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_427498_abis_proposal</sys_name>
             <sys_package display_value="ABiS" source="x_427498_abis">269ad56c47332110ff8e8a88536d4359</sys_package>
@@ -113,7 +113,7 @@
             <sys_scope display_value="ABiS">269ad56c47332110ff8e8a88536d4359</sys_scope>
             <sys_update_name>sys_ui_list_x_427498_abis_proposal_null</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-08-25 20:47:27</sys_updated_on>
+            <sys_updated_on>2023-08-25 21:19:42</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="5ca46af3977431102b9e76771153af52" extends="sys_import_set_row" label="import_invoice_item" max_length="40" name="x_427498_abis_import_invoice_item" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=A" label="A" max_length="51" name="u_a" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=C" label="C" max_length="171" name="u_c" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=D" label="D" max_length="40" name="u_d" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Description" label="Description" max_length="40" name="u_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=E" label="E" max_length="40" name="u_e" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=F" label="F" max_length="40" name="u_f" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=G" label="G" max_length="40" name="u_g" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Group Name" label="Group Name" max_length="40" name="u_group_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=H" label="H" max_length="40" name="u_h" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Invoice Items" label="Invoice Items" max_length="51" name="u_invoice_items" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Long Description" label="Long Description" max_length="40" name="u_long_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Name" label="Name" max_length="40" name="u_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Rate" label="Rate" max_length="40" name="u_rate" type="string"/>
+        <element attributes="import_attribute_name=Tax 1" label="Tax 1" max_length="15" name="u_tax_1" type="decimal"/>
+        <element attributes="import_attribute_name=Tax 2" label="Tax 2" max_length="40" name="u_tax_2" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Unit" label="Unit" max_length="40" name="u_unit" type="string"/>
+    </element>
+</database>
