@@ -38,25 +38,6 @@
             <dependent_value/>
             <element>company_new</element>
             <hint/>
-            <inactive>true</inactive>
-            <label>Choice 1</label>
-            <language>en</language>
-            <name>x_427498_abis_proposal</name>
-            <sequence>0</sequence>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-08-25 21:11:04</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-08-25 21:12:44</sys_updated_on>
-            <value>Choice 1</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>company_new</element>
-            <hint/>
             <inactive>false</inactive>
             <label>M/s. Aanoor Efilings Private Limited</label>
             <language>en</language>
@@ -71,44 +52,6 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2023-08-25 21:12:44</sys_updated_on>
             <value>aanoor_efilings</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>company_new</element>
-            <hint/>
-            <inactive>true</inactive>
-            <label>Choice 2</label>
-            <language>en</language>
-            <name>x_427498_abis_proposal</name>
-            <sequence>1</sequence>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-08-25 21:11:04</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-08-25 21:12:44</sys_updated_on>
-            <value>Choice 2</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>company_new</element>
-            <hint/>
-            <inactive>true</inactive>
-            <label>Choice 3</label>
-            <language>en</language>
-            <name>x_427498_abis_proposal</name>
-            <sequence>2</sequence>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-08-25 21:11:04</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-08-25 21:12:44</sys_updated_on>
-            <value>Choice 3</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>

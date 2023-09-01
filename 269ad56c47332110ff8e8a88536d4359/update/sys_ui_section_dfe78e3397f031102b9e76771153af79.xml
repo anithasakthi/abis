@@ -4,13 +4,13 @@
             <element>u_item_name</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-08-28 18:26:56</sys_created_on>
-            <sys_id>0b916633977431102b9e76771153af07</sys_id>
+            <sys_created_on>2023-08-29 15:17:40</sys_created_on>
+            <sys_id>24ef7e8c970971102b9e76771153af3e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_427498_abis_invoice_item" sys_domain="global" view="Default view">dfe78e3397f031102b9e76771153af79</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-08-28 18:26:56</sys_updated_on>
+            <sys_updated_on>2023-08-29 15:17:40</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>u_short_description</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-08-28 18:26:56</sys_created_on>
-            <sys_id>8f916633977431102b9e76771153af07</sys_id>
+            <sys_created_on>2023-08-29 15:17:40</sys_created_on>
+            <sys_id>a4ef7e8c970971102b9e76771153af3e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_427498_abis_invoice_item" sys_domain="global" view="Default view">dfe78e3397f031102b9e76771153af79</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-08-28 18:26:56</sys_updated_on>
+            <sys_updated_on>2023-08-29 15:17:40</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>u_description</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-08-28 18:26:56</sys_created_on>
-            <sys_id>03916633977431102b9e76771153af08</sys_id>
+            <sys_created_on>2023-08-29 15:17:40</sys_created_on>
+            <sys_id>28ef7e8c970971102b9e76771153af3e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_427498_abis_invoice_item" sys_domain="global" view="Default view">dfe78e3397f031102b9e76771153af79</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-08-28 18:26:56</sys_updated_on>
+            <sys_updated_on>2023-08-29 15:17:40</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,55 +46,69 @@
             <element>u_rate</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-08-28 18:26:56</sys_created_on>
-            <sys_id>83916633977431102b9e76771153af08</sys_id>
+            <sys_created_on>2023-08-29 15:17:40</sys_created_on>
+            <sys_id>a8ef7e8c970971102b9e76771153af3e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_427498_abis_invoice_item" sys_domain="global" view="Default view">dfe78e3397f031102b9e76771153af79</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-08-28 18:26:56</sys_updated_on>
+            <sys_updated_on>2023-08-29 15:17:40</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_tax_1</element>
+            <element>u_govt_fee</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-08-28 18:26:56</sys_created_on>
-            <sys_id>07916633977431102b9e76771153af08</sys_id>
+            <sys_created_on>2023-08-29 15:17:40</sys_created_on>
+            <sys_id>2cef7e8c970971102b9e76771153af3e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_427498_abis_invoice_item" sys_domain="global" view="Default view">dfe78e3397f031102b9e76771153af79</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-08-28 18:26:56</sys_updated_on>
+            <sys_updated_on>2023-08-29 15:17:40</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_tax_2</element>
+            <element>u_tax</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-08-28 18:26:56</sys_created_on>
-            <sys_id>87916633977431102b9e76771153af08</sys_id>
+            <sys_created_on>2023-08-29 15:17:40</sys_created_on>
+            <sys_id>acef7e8c970971102b9e76771153af3e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_427498_abis_invoice_item" sys_domain="global" view="Default view">dfe78e3397f031102b9e76771153af79</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-08-28 18:26:56</sys_updated_on>
+            <sys_updated_on>2023-08-29 15:17:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_tax2</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-29 15:17:40</sys_created_on>
+            <sys_id>20ef7e8c970971102b9e76771153af3f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_427498_abis_invoice_item" sys_domain="global" view="Default view">dfe78e3397f031102b9e76771153af79</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-29 15:17:40</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_group_name</element>
-            <position>6</position>
+            <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-08-28 18:26:56</sys_created_on>
-            <sys_id>0b916633977431102b9e76771153af08</sys_id>
+            <sys_created_on>2023-08-29 15:17:40</sys_created_on>
+            <sys_id>a0ef7e8c970971102b9e76771153af3f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_427498_abis_invoice_item" sys_domain="global" view="Default view">dfe78e3397f031102b9e76771153af79</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-08-28 18:26:56</sys_updated_on>
+            <sys_updated_on>2023-08-29 15:17:40</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

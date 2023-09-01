@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>u_prop_rate</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-29 16:44:15</sys_created_on>
+        <sys_id>a2935f04978971102b9e76771153af23</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>u_prop_rate</sys_name>
+        <sys_package display_value="ABiS" source="x_427498_abis">269ad56c47332110ff8e8a88536d4359</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ABiS">269ad56c47332110ff8e8a88536d4359</sys_scope>
+        <sys_update_name>sys_ui_policy_action_a2935f04978971102b9e76771153af23</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-29 17:02:26</sys_updated_on>
+        <table>x_427498_abis_proposal</table>
+        <ui_policy display_value="To make the rate field visible">14335704978971102b9e76771153af66</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ABiS">269ad56c47332110ff8e8a88536d4359</application>
+        <file_path/>
+        <instance_id>b17039364f46dec0e17199701310c7ff</instance_id>
+        <instance_name>dev21187</instance_name>
+        <name>sys_ui_policy_action_a2935f04978971102b9e76771153af23</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>u_prop_rate</field><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-08-29 16:44:15</sys_created_on><sys_id>a2935f04978971102b9e76771153af23</sys_id><sys_mod_count>1</sys_mod_count><sys_name>u_prop_rate</sys_name><sys_package display_value="ABiS" source="x_427498_abis">269ad56c47332110ff8e8a88536d4359</sys_package><sys_policy/><sys_scope display_value="ABiS">269ad56c47332110ff8e8a88536d4359</sys_scope><sys_update_name>sys_ui_policy_action_a2935f04978971102b9e76771153af23</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-08-29 17:02:26</sys_updated_on><table>x_427498_abis_proposal</table><ui_policy display_value="To make the rate field visible">14335704978971102b9e76771153af66</ui_policy><visible>true</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>614514730</payload_hash>
+        <record_name>u_prop_rate</record_name>
+        <reverted_from/>
+        <source>6f932a8d976031102b9e76771153afbf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-29 17:02:26</sys_created_on>
+        <sys_id>5bd71b48978971102b9e76771153afa9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a423f1c9c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-29 17:02:26</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>dfd71b48db8971102bd66c4d7ddd3ca8</update_guid>
+        <update_guid_history>dfd71b48db8971102bd66c4d7ddd3ca8:614514730,38b35704bf89711069d236e5d8efa0fd:794376394</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-31 22:58:16</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>0339ce10476d4352992d152ef6523709</sys_id>
+        <sys_metadata>a2935f04978971102b9e76771153af23</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_prop_rate</sys_name>
+        <sys_package display_value="ABiS" source="x_427498_abis">269ad56c47332110ff8e8a88536d4359</sys_package>
+        <sys_parent display_value="">14335704978971102b9e76771153af66</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ABiS">269ad56c47332110ff8e8a88536d4359</sys_scope>
+        <sys_scope_delete display_value="">26b92a24f61e4b2c8602f0025b499651</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_a2935f04978971102b9e76771153af23</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_a2935f04978971102b9e76771153af23">5bd71b48978971102b9e76771153afa9</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-31 22:58:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
