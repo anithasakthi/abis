@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="x_427498_abis_proposal" version="2" view="">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Proposal - Default view" name="x_427498_abis_proposal" related_list="NULL" sys_domain="global" view="Default view">8a53d895974931102b9e76771153af4e</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-01 23:56:14</sys_created_on>
+            <sys_id>8653d895974931102b9e76771153af4f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-01 23:56:14</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Proposal - Default view</calculated_name>
+            <filter/>
+            <name>x_427498_abis_proposal</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-01 23:56:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8a53d895974931102b9e76771153af4e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Proposal - Default view</sys_name>
+            <sys_package display_value="ABiS" source="x_427498_abis">269ad56c47332110ff8e8a88536d4359</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ABiS">269ad56c47332110ff8e8a88536d4359</sys_scope>
+            <sys_update_name>sys_ui_related_x_427498_abis_proposal_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-01 23:56:14</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

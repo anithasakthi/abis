@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_427498_abis.invoiceItemChoice</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>invoiceItemChoice</name>
+        <script><![CDATA[var invoiceItemChoice = Class.create();
+invoiceItemChoice.prototype = {
+	initialize: function() {
+	},
+
+	FilterChoiceList:function(company){
+		
+		gs.info("company" + company);
+
+		var gr = new GlideRecord('x_427498_abis_invoice_item');
+		var answer= [];
+		//if company is = aanoor_global , return all the name related to it
+
+		if(company == 'aanoor_global'){
+			gr.addEncodedQuery('u_group_name=aanoor_global');
+			gr.query();
+	gs.info("I am here" + gr.sys_id);
+			while (gr.next()){
+				answer.push(gr.sys_id.toString());
+
+			}
+			
+			return 'sys_idIN' + answer.join(',');
+		}else if (company == 'aanoor_efilings'){
+			
+			gr.addEncodedQuery('u_group_name=aanoor_efilings');
+			gr.query();
+			
+			while (gr.next()){
+				answer.push(gr.sys_id.toString());
+
+			}
+			
+			return 'sys_idIN' + answer.join(',');
+			
+		}
+	
+
+	},
+
+	type: 'invoiceItemChoice'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-01 19:42:13</sys_created_on>
+        <sys_id>ff559301974531102b9e76771153af78</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>invoiceItemChoice</sys_name>
+        <sys_package display_value="ABiS" source="x_427498_abis">269ad56c47332110ff8e8a88536d4359</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="ABiS">269ad56c47332110ff8e8a88536d4359</sys_scope>
+        <sys_update_name>sys_script_include_ff559301974531102b9e76771153af78</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-01 21:57:11</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ABiS">269ad56c47332110ff8e8a88536d4359</application>
+        <file_path/>
+        <instance_id>b17039364f46dec0e17199701310c7ff</instance_id>
+        <instance_name>dev21187</instance_name>
+        <name>sys_script_include_ff559301974531102b9e76771153af78</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_427498_abis.invoiceItemChoice&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;invoiceItemChoice&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var invoiceItemChoice = Class.create();
+invoiceItemChoice.prototype = {
+	initialize: function() {
+	},
+
+	FilterChoiceList:function(company){
+		
+		gs.info("company" + company);
+
+		var gr = new GlideRecord('x_427498_abis_invoice_item');
+		var answer= [];
+		//if company is = aanoor_global , return all the name related to it
+
+		if(company == 'aanoor_global'){
+			gr.addEncodedQuery('u_group_name=aanoor_global');
+			gr.query();
+	gs.info("I am here" + gr.sys_id);
+			while (gr.next()){
+				answer.push(gr.sys_id.toString());
+
+			}
+			
+			return 'sys_idIN' + answer.join(',');
+		}else if (company == 'aanoor_efilings'){
+			
+			gr.addEncodedQuery('u_group_name=aanoor_efilings');
+			gr.query();
+			
+			while (gr.next()){
+				answer.push(gr.sys_id.toString());
+
+			}
+			
+			return 'sys_idIN' + answer.join(',');
+			
+		}
+	
+
+	},
+
+	type: 'invoiceItemChoice'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-09-01 19:42:13&lt;/sys_created_on&gt;&lt;sys_id&gt;ff559301974531102b9e76771153af78&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;invoiceItemChoice&lt;/sys_name&gt;&lt;sys_package display_value="ABiS" source="x_427498_abis"&gt;269ad56c47332110ff8e8a88536d4359&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="ABiS"&gt;269ad56c47332110ff8e8a88536d4359&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_ff559301974531102b9e76771153af78&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-09-01 21:57:11&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-2099949516</payload_hash>
+        <record_name>invoiceItemChoice</record_name>
+        <reverted_from/>
+        <source>6f932a8d976031102b9e76771153afbf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-01 21:57:11</sys_created_on>
+        <sys_id>56187bc597c531102b9e76771153af4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a52c008a20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-01 21:57:11</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>da187bc5dbc531101722ee70651a204a</update_guid>
+        <update_guid_history>da187bc5dbc531101722ee70651a204a:-2099949516,a90ae7c5bb853110acabb6abe355863d:457494967,15391b052b453110b8f42a8a136a450f:122122420</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-01 22:37:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>09e742fb0bf34fc7807fcaff23ffcff9</sys_id>
+        <sys_metadata>ff559301974531102b9e76771153af78</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>invoiceItemChoice</sys_name>
+        <sys_package display_value="ABiS" source="x_427498_abis">269ad56c47332110ff8e8a88536d4359</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="ABiS">269ad56c47332110ff8e8a88536d4359</sys_scope>
+        <sys_scope_delete display_value="">26b92a24f61e4b2c8602f0025b499651</sys_scope_delete>
+        <sys_update_name>sys_script_include_ff559301974531102b9e76771153af78</sys_update_name>
+        <sys_update_version display_value="sys_script_include_ff559301974531102b9e76771153af78">56187bc597c531102b9e76771153af4b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-01 22:37:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

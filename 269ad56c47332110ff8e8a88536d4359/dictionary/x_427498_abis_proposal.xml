@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="a003e33297b431102b9e76771153af54" extends="task" label="Proposal" max_length="40" name="x_427498_abis_proposal" type="collection">
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Company" mandatory="true" max_length="40" name="company_new" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Company" mandatory="true" max_length="40" name="company_new" type="choice">
             <choice>
                 <element inactive_on_update="false" label="M/s. Aanoor Global Corporate Solutions Pvt. Ltd." sequence="0" value="aanoor_global"/>
                 <element inactive_on_update="false" label="M/s. Aanoor Efilings Private Limited" sequence="1" value="aanoor_efilings"/>
@@ -8,7 +8,7 @@
                 <element inactive="true" inactive_on_update="true" label="M/s. Roonaa Technologies India Pvt. Ltd." sequence="4" value="roonaa_tech"/>
             </choice>
         </element>
-        <element attributes="encode_utf8=false" choice="1" dependent="company_new" dependent_on_field="company_new" label="Service" mandatory="true" max_length="32" name="u_invoice_item" reference="x_427498_abis_invoice_item" type="reference" use_dependent_field="true">
+        <element attributes="encode_utf8=false" choice="1" dependent="company_new" dependent_on_field="company_new" label="Service" mandatory="true" max_length="32" name="u_invoice_item" reference="x_427498_abis_invoice_item" reference_qual="javascript:if(current.company_new == 'aanoor_efilings'{&#13;&#10;return 'company_new =aanoor_efilings';&#13;&#10;}else if (current.company_new == 'aanoor_global'{&#13;&#10;return 'company_new =aanoor_global';&#13;&#10;}" type="reference" use_dependent_field="true" use_reference_qualifier="advanced">
             <choice/>
         </element>
         <element attributes="omit_sys_original=true" label="Rate" max_length="20" name="u_prop_rate" type="currency"/>

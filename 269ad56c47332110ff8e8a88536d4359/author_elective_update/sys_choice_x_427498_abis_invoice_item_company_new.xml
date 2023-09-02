@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="company_new" table="x_427498_abis_invoice_item" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>company_new</element>
+            <name>x_427498_abis_invoice_item</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-01 23:06:34</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>company_new</sys_name>
+            <sys_package display_value="ABiS" source="x_427498_abis">269ad56c47332110ff8e8a88536d4359</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ABiS">269ad56c47332110ff8e8a88536d4359</sys_scope>
+            <sys_update_name>sys_choice_x_427498_abis_invoice_item_company_new</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-01 23:06:34</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>company_new</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>M/s. Aanoor Efilings Private Limited</label>
+            <language>en</language>
+            <name>x_427498_abis_invoice_item</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-01 23:08:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-01 23:08:17</sys_updated_on>
+            <value>aanoor_efilings</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>company_new</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>M/s. Aanoor Global Corporate Solutions Pvt. Ltd.</label>
+            <language>en</language>
+            <name>x_427498_abis_invoice_item</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-01 23:06:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-01 23:07:49</sys_updated_on>
+            <value>aanoor_global</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
