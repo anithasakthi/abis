@@ -3,7 +3,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>number</element>
-            <list_id display_value="x_427498_abis_lead" element="NULL" name="x_427498_abis_lead" parent="NULL" relationship="NULL" sys_domain="global" view="0cdb396c47b32110ff8e8a88536d43fe">b425ea3347183110ff8e8a88536d430a</list_id>
+            <list_id display_value="x_427498_abis_lead" element="NULL" name="x_427498_abis_lead" parent="NULL" relationship="NULL" sys_domain="global" view="0093a245972431102b9e76771153af20">b425ea3347183110ff8e8a88536d430a</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -18,7 +18,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>u_name</element>
-            <list_id display_value="x_427498_abis_lead" element="NULL" name="x_427498_abis_lead" parent="NULL" relationship="NULL" sys_domain="global" view="0cdb396c47b32110ff8e8a88536d43fe">b425ea3347183110ff8e8a88536d430a</list_id>
+            <list_id display_value="x_427498_abis_lead" element="NULL" name="x_427498_abis_lead" parent="NULL" relationship="NULL" sys_domain="global" view="0093a245972431102b9e76771153af20">b425ea3347183110ff8e8a88536d430a</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
@@ -33,7 +33,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>state</element>
-            <list_id display_value="x_427498_abis_lead" element="NULL" name="x_427498_abis_lead" parent="NULL" relationship="NULL" sys_domain="global" view="0cdb396c47b32110ff8e8a88536d43fe">b425ea3347183110ff8e8a88536d430a</list_id>
+            <list_id display_value="x_427498_abis_lead" element="NULL" name="x_427498_abis_lead" parent="NULL" relationship="NULL" sys_domain="global" view="0093a245972431102b9e76771153af20">b425ea3347183110ff8e8a88536d430a</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
@@ -48,7 +48,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>assigned_to</element>
-            <list_id display_value="x_427498_abis_lead" element="NULL" name="x_427498_abis_lead" parent="NULL" relationship="NULL" sys_domain="global" view="0cdb396c47b32110ff8e8a88536d43fe">b425ea3347183110ff8e8a88536d430a</list_id>
+            <list_id display_value="x_427498_abis_lead" element="NULL" name="x_427498_abis_lead" parent="NULL" relationship="NULL" sys_domain="global" view="0093a245972431102b9e76771153af20">b425ea3347183110ff8e8a88536d430a</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
@@ -63,7 +63,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>u_company</element>
-            <list_id display_value="x_427498_abis_lead" element="NULL" name="x_427498_abis_lead" parent="NULL" relationship="NULL" sys_domain="global" view="0cdb396c47b32110ff8e8a88536d43fe">b425ea3347183110ff8e8a88536d430a</list_id>
+            <list_id display_value="x_427498_abis_lead" element="NULL" name="x_427498_abis_lead" parent="NULL" relationship="NULL" sys_domain="global" view="0093a245972431102b9e76771153af20">b425ea3347183110ff8e8a88536d430a</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
@@ -78,7 +78,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>sys_created_on</element>
-            <list_id display_value="x_427498_abis_lead" element="NULL" name="x_427498_abis_lead" parent="NULL" relationship="NULL" sys_domain="global" view="0cdb396c47b32110ff8e8a88536d43fe">b425ea3347183110ff8e8a88536d430a</list_id>
+            <list_id display_value="x_427498_abis_lead" element="NULL" name="x_427498_abis_lead" parent="NULL" relationship="NULL" sys_domain="global" view="0093a245972431102b9e76771153af20">b425ea3347183110ff8e8a88536d430a</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
@@ -93,7 +93,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>sys_created_by</element>
-            <list_id display_value="x_427498_abis_lead" element="NULL" name="x_427498_abis_lead" parent="NULL" relationship="NULL" sys_domain="global" view="0cdb396c47b32110ff8e8a88536d43fe">b425ea3347183110ff8e8a88536d430a</list_id>
+            <list_id display_value="x_427498_abis_lead" element="NULL" name="x_427498_abis_lead" parent="NULL" relationship="NULL" sys_domain="global" view="0093a245972431102b9e76771153af20">b425ea3347183110ff8e8a88536d430a</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>6</position>
@@ -130,7 +130,7 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2023-08-03 22:10:56</sys_updated_on>
             <sys_user/>
-            <view display_value="Rpt0cdb396c47b32110ff8e8a88536d435c" name="RPT0cdb396c47b32110ff8e8a88536d435c">0cdb396c47b32110ff8e8a88536d43fe</view>
+            <view display_value="Rpt0cdb396c47b32110ff8e8a88536d435c" name="RPT0cdb396c47b32110ff8e8a88536d435c">0093a245972431102b9e76771153af20</view>
             <view_name/>
         </sys_ui_list>
     </sys_ui_list>

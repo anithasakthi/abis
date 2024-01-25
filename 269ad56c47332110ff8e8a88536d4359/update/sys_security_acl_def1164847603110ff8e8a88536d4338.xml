@@ -5,9 +5,11 @@
         <advanced>false</advanced>
         <condition/>
         <description>Allow report_view for records in x_427498_abis_lead, for users with role report_user.</description>
+        <local_or_existing/>
         <name>x_427498_abis_lead</name>
         <operation display_value="report_view">0997ab83733303005978e4b9cdf6a7b9</operation>
         <script/>
+        <security_attribute/>
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-08-04 15:27:31</sys_created_on>

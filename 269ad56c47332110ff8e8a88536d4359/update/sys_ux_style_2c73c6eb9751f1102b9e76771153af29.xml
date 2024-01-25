@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_style">
+    <sys_ux_style action="INSERT_OR_UPDATE">
+        <name>Anitha theme</name>
+        <style>{&#13;
+    "base": {&#13;
+        "--now-color--neutral": "255, 102, 153",&#13;
+        "--now-color--primary": "255, 0, 102",&#13;
+        "--now-color--secondary": "255, 77, 148",&#13;
+        "--now-color_selection--primary": "173, 173, 133",&#13;
+        "--now-color_selection--secondary": "191, 128, 64"&#13;
+    },&#13;
+    "properties": {&#13;
+        "--now-actionble--border-radius": "4px",&#13;
+        "--now-actionble--border-width": "1px",&#13;
+        "--now-container--border-radius": "4px"&#13;
+    }&#13;
+}</style>
+        <sys_class_name>sys_ux_style</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-21 18:08:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2c73c6eb9751f1102b9e76771153af29</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Anitha theme</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ABiS" source="x_427498_abis">269ad56c47332110ff8e8a88536d4359</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ABiS">269ad56c47332110ff8e8a88536d4359</sys_scope>
+        <sys_update_name>sys_ux_style_2c73c6eb9751f1102b9e76771153af29</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-21 18:14:45</sys_updated_on>
+        <type>variant</type>
+    </sys_ux_style>
+</record_update>

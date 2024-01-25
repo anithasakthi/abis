@@ -10,6 +10,7 @@
         <dialog_acts_enabled>true</dialog_acts_enabled>
         <expose_on_palette>false</expose_on_palette>
         <flexible_conversation_switching>true</flexible_conversation_switching>
+        <foundational>false</foundational>
         <graph>{
   "graph_api_version": "1.0.47",
   "goals": {
@@ -209,6 +210,7 @@
         <key_phrases>Abis</key_phrases>
         <library>false</library>
         <live_agent>false</live_agent>
+        <model_type>nlu_keyword</model_type>
         <modify_confirmation_enabled>true</modify_confirmation_enabled>
         <name>Abis</name>
         <nlu_intent/>

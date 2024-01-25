@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_style">
+    <sys_ux_style action="INSERT_OR_UPDATE">
+        <name>Cloud Dimensions - Polaris ON</name>
+        <style>{&#13;
+    "base": {&#13;
+        "--now-color--neutral": "255,169,255",&#13;
+        "--now-color--primary": "255,42,0",&#13;
+        "--now-color--secondary": "79,82,189",&#13;
+        "--now-color_selection--primary": "0,123,88",&#13;
+        "--now-color_selection--secondary": "79,82,189"&#13;
+    },&#13;
+    "properties": {&#13;
+        "--now-actionble--border-radius": "4px",&#13;
+        "--now-actionble--border-width": "1px",&#13;
+        "--now-container--border-radius": "4px"&#13;
+    }&#13;
+}</style>
+        <sys_class_name>sys_ux_style</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-18 21:16:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4ca1536697d531102b9e76771153af06</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Cloud Dimensions - Polaris ON</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ABiS" source="x_427498_abis">269ad56c47332110ff8e8a88536d4359</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ABiS">269ad56c47332110ff8e8a88536d4359</sys_scope>
+        <sys_update_name>sys_ux_style_4ca1536697d531102b9e76771153af06</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-19 14:02:26</sys_updated_on>
+        <type>variant</type>
+    </sys_ux_style>
+</record_update>

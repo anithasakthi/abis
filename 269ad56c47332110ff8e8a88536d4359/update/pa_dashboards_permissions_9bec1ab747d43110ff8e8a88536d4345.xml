@@ -2,7 +2,7 @@
     <pa_dashboards_permissions action="INSERT_OR_UPDATE">
         <dashboard display_value="Lead Overview">d41935a847b32110ff8e8a88536d4366</dashboard>
         <delete>false</delete>
-        <group display_value="Abis Admin" name="Abis Admin">011612bf47943110ff8e8a88536d430d</group>
+        <group display_value="">011612bf47943110ff8e8a88536d430d</group>
         <identity>011612bf47943110ff8e8a88536d430d</identity>
         <read>true</read>
         <role/>
